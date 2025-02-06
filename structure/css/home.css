@@ -25,7 +25,8 @@ body {
 
 
 
-.main input[type="submit"] {
+.main input[type="submit"], 
+.main input[type="button"] {
     background-color: #00BFA6;
     width : 100px;
     text-decoration: none;

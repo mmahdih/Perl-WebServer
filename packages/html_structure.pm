@@ -27,6 +27,13 @@ while ( my $line = <$home> ) {
 }
 close $home;
 
+my $MFA_page = '';
+open my $mfa, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/mfa.css' or die $!;
+while ( my $line = <$mfa> ) {
+    $MFA_page .= $line;
+}
+close $mfa;
+
 my $error_css = '';
 open my $error, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/error.css' or die $!;
 while ( my $line = <$error> ) {
@@ -214,6 +221,7 @@ sub home_page {
 <body>
     <div class="main">
         <h1>Welcome $userID</h1>
+        <a id="MFA" href="/mfa">Multi Factor Authentication</a>
         <nav>
             <ul>
                 <li>
@@ -1000,6 +1008,55 @@ HTML
 
     return $html_content;
 }
+
+
+
+
+#* Multi Factor Authentication Page
+
+sub MFA_page {
+
+    my $html_content = <<HTML;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFA</title>
+    <style>
+      $MFA_page
+      p{}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/">Go Back Home</a>
+        <h1>MFA</h1>
+        <p>Multi Factor Authentication</p>
+        
+        <img src="qrcodes/qrcode.png" alt="MFA Illustration" width="500" height="500" class="illustration">
+        
+        <form action="/mfa/verify" method="post">
+            <label for="code">Enter Code:</label>
+            <input type="text" id="code" name="code" required>
+            <input type="submit" value="Verify">
+        </form>
+    </div>
+</body>
+</html>
+HTML
+
+    return $html_content;
+}
+
+
+
+
+
+
+
+
+
 
 
 

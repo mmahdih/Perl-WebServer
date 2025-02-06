@@ -10,6 +10,15 @@ use JSON;
 # use HTTP::Cookies;
 use Cwd;
 
+# mfa
+use Digest::SHA qw(hmac_sha1_hex);
+use Convert::Base32;
+use GD::Barcode::QRcode;
+use GD::Image;
+use MIME::Base32 qw( encode_base32 );
+
+
+
 # import modules
 use lib ".";
 use lib '/home/lapdev/Mein/Perl-WebServer/packages';
@@ -27,7 +36,7 @@ use cookies;
 
 #variables
 my $base_dir = getcwd();
-my $server_port = 1212;
+my $server_port = 1111;
 my $select;
 my @ready;
 my @connected;
@@ -40,9 +49,11 @@ my $method = "";
 ##################################
 # Socket Connection Server Setup #
 ##################################
-
 # create a socket
 socket( my $server, PF_INET, SOCK_STREAM, 0 ) or die "socket: $!";
+
+# set option to prevent address already in use error
+setsockopt( $server, SOL_SOCKET, SO_REUSEADDR, 1 ) or die "setsockopt: $!";
 
 # connect to the server
 bind( $server, sockaddr_in( $server_port, INADDR_ANY ) ) or die "bind: $!";
@@ -166,8 +177,10 @@ while (1) {
                                 print "\n";
                             }
                         }
+                        
 
                         elsif ( $uri =~ "/user/register" ) {
+                            print "kjsadl;fkjasdl;fkajsdfl;kasjdf;lkasdj";
                             my ($result ) = user_manager::handle_register_user( $client, $req );
 
                             if ($result eq "registered") {
@@ -192,6 +205,24 @@ while (1) {
                             # print $result;
                             my $res = HTTP_RESPONSE::REDIRECT_303_with_cookie( "Logged out successful", "/login", $result );
                             print $client $res;
+                            $select->remove($client);
+                            close $client;
+                            print "Connection closed.\n";
+                            print "\n";
+                            print "\n";
+                        }
+                        
+                        elsif ( $uri =~ "/mfa/verify"){
+                            my ($result) = user_manager::handle_mfa_verify( $client, $req );
+                            if ($result eq "success") {
+                                my $body = html_structure::Alert_page("success", "MFA verified successful", "Home");
+                                my $res = HTTP_RESPONSE::GET_OK_200( $body);
+                                print $client $res;
+                            } elsif ($result eq "failed") {
+                                my $body = html_structure::Alert_page("error", "MFA verification failed");
+                                my $res = HTTP_RESPONSE::BAD_REQUEST_400($body);
+                                print $client $res;
+                            }
                             $select->remove($client);
                             close $client;
                             print "Connection closed.\n";
@@ -613,6 +644,91 @@ while (1) {
                         print "\n";
                         print "\n";
                     }
+                    elsif ( $uri =~ /\/qrcodes/ ) {
+                        # get_user
+                        # get_user_qrcode_path
+                        # send_qrcode_to_user
+                        # open $fh, '<', bilde
+                        # lesen data
+                        # octet-stream/
+                        # body = bild data
+                        
+                        open my $fh, '<', 'qrcode.png' or die "Cannot open file: $!";
+                        binmode $fh;
+                        my $data = do { local $/; <$fh> };
+                        close $fh;
+                        my $res = HTTP_RESPONSE::GET_OK_200_with_content_type($data, "image/png");
+                        print $client $res;
+                        $select->remove($client);
+                        close $client;
+                        print "Connection closed.\n";
+                        print "\n";
+                        print "\n";
+
+
+
+                    }
+                    elsif ( $uri eq "/mfa" ) {
+                    
+                    # Generate base32 secret key
+                    my $base32_secret = generate_base32_secret();
+                    print "Secret = $base32_secret\n";
+                        
+                    # QR Code generation
+                    my $uri = "otpauth://totp/TestApp:testUser?secret=$base32_secret&issuer=TestApp\n";
+                    my $qr = GD::Barcode::QRcode->new($uri, { Ecc => 'L', Version => 10, ModuleSize => 3 });
+
+
+                                    
+                    my $cookie_header = $req->headers->header('Cookie');
+                    my ($cookies) = $cookie_header && $cookie_header =~ /session_id=([^;]+)/;
+
+
+                    my $users;
+                    if ( -s "$base_dir/User/user_data.json" ) {
+                        open my $fh, '<', "$base_dir/User/user_data.json" or die $!;
+                        local $/ = undef;
+                        my $json_data = <$fh>;
+                        $users = decode_json($json_data);
+                        close $fh;
+                    } else {
+                        $users = [];
+                    }
+
+                    my $found = 0;
+                    foreach my $user (@$users) {
+                        if ( $user->{session_id} eq $cookies ) {
+                            print "Login successful\n";
+                            $user->{multi_factor_auth_code} = $base32_secret;
+                            print "Secret: $base32_secret\n";
+
+                            open my $fh, '>', "$base_dir/User/user_data.json" or die $!;
+                            print $fh encode_json($users);
+                            close $fh;
+                            $found = 1;
+                            # return "success", "session_id=$sessionId";
+                        }
+                    }
+                    
+                    # QR Code saving
+                    open my $fh, '>', 'qrcode.png' or die "Cannot open file: $!";
+                    binmode $fh;
+                    print $fh $qr->plot->png;
+                    close $fh;
+                    print "QR Code saved as qrcode.png\n";
+
+
+                        # Generate final HTML response
+                        my $body = html_structure::MFA_page();
+                        my $res  = HTTP_RESPONSE::GET_OK_200($body);
+                        print $client $res;
+                        $select->remove($client);
+                        close $client;
+                        print "Connection closed.\n";
+                        print "\n";
+                        print "\n";
+                        
+                    }
                     elsif ( $uri =~ "/filemanager" ) {
                         my ($result, $username, $user_role) = user_manager::user_login_check($client, $req);
 
@@ -746,3 +862,42 @@ while (1) {
     }
 }
 
+
+
+sub generate_secret_key {
+    my $length = shift || 16;  # 16 bytes is a common length for secret keys
+    my $random_bytes = '';
+    for (1..$length) {
+        $random_bytes .= chr(int(rand(256)));
+    }
+    return encode_base32($random_bytes);
+    }
+
+sub generate_base32_secret {
+    my @chars = ("A".."Z", "2".."7");
+    my $length = scalar(@chars);
+    my $base32_secret = "";
+    for (my $i = 0; $i < 16; $i++) {
+            $base32_secret .= $chars[rand($length)];
+    }
+    return $base32_secret;
+}
+
+sub generate_current_number {
+    my ($base32_secret) = @_;
+
+    my $decode = Convert::Base32::decode_base32($base32_secret);
+
+    my $current_UNIX_time = time();
+    my $time_step = int($current_UNIX_time / 30);       # 30 seconds
+    $time_step = pack("Q>", $time_step);
+
+    my $hmac_sha1_hex = hmac_sha1_hex($time_step, $decode);
+
+    my $offset = hex(substr($hmac_sha1_hex, length($hmac_sha1_hex) - 1, 1));
+    my $truncated_hash = substr($hmac_sha1_hex, $offset * 2, 8);
+    my $encrypted = hex($truncated_hash) & 0x7fffffff;
+    my $token = $encrypted % 1000000;
+
+    return sprintf("%06d", $token);
+}

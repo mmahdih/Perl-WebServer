@@ -19,6 +19,20 @@ sub REDIRECT_303 {
     return $response;
 }
 
+
+sub GET_OK_200_with_content_type {
+    my ($data, $content_type) = @_;
+
+    my $response;
+    $response .= "HTTP/1.1 200 OK\r\n";
+    $response .= "Content-Type: $content_type\r\n";
+    $response .= "Date: $date_now\r\n";
+    $response .= "\r\n";
+    $response .= $data;
+
+    return $response;
+}
+
 sub REDIRECT_303_with_cookie {
     my ($data, $path, $cookie) = @_;
     

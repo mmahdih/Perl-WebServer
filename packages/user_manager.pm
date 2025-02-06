@@ -7,6 +7,12 @@ use JSON;
 use Data::Dumper;
 use URI::Escape;
 
+use Digest::SHA qw(hmac_sha1_hex);
+use Convert::Base32;
+use GD::Barcode::QRcode;
+use GD::Image;
+use MIME::Base32 qw( encode_base32 );
+
 use lib '.';
 use lib "/home/lapdev/Mein/Perl-WebServer/packages";
 
@@ -167,7 +173,10 @@ sub handle_register_user {
         role => 'user',
         email => $email,
         display_name => $display_name,
-        dob => $dob
+        dob => $dob,
+        # created_at => time, # ! This might make trouble
+        multi_factor_auth => 0,
+        multi_factor_auth_code => undef
     };
 
     # mkdir "$base_dir/User/$username" unless -d "$base_dir/User/$username";
@@ -236,5 +245,90 @@ sub user_login_check {
 
 
 }
+
+sub handle_mfa_verify {
+    my ( $client, $req ) = @_;
+    
+
+    print "MFA Verification\n";
+    my $req_body = $req->content;
+    my ($mfa_code_user_input) = $req_body =~ m/code=([^&]+)/;
+    print "MFA Code: $mfa_code_user_input\n";
+
+    my $secret_code = "";
+    my $username = "";
+
+    my $cookie_header = $req->headers->header('Cookie');
+    my ($cookies) = $cookie_header && $cookie_header =~ /session_id=([^;]+)/;
+
+
+    
+    my $users;
+    if ( -s "$base_dir/User/user_data.json" ) {
+        open my $fh, '<', "$base_dir/User/user_data.json" or die $!;
+        local $/ = undef;
+        my $json_data = <$fh>;
+        $users = decode_json($json_data);
+        close $fh;
+    } else {
+        $users = [];
+    }
+
+    my $found = 0;
+    foreach my $user (@$users) {
+        if ( $user->{session_id} eq $cookies ) {
+            print "Login successful\n";
+            $username = $user->{username};
+            $secret_code = $user->{multi_factor_auth_code};
+            $found = 1;
+
+        }
+    }
+    
+    print "Secret Code: $secret_code\n";
+    my $current_number = generate_current_number($secret_code);
+    print "Current Number: $current_number\n";
+    if ($current_number eq $mfa_code_user_input) {
+        print "MFA Verification successful\n";
+        foreach my $user (@$users) {
+            if ( $user->{session_id} eq $cookies ) {
+                $user->{multi_factor_auth} = 1;
+                open my $fh, '>', "$base_dir/User/user_data.json" or die $!;
+                print $fh encode_json($users);
+                close $fh;
+                return "success";
+            }
+        }
+    } else {
+        print "MFA Verification failed\n";
+        return "failed";
+    }
+
+
+
+}
+
+
+
+
+sub generate_current_number {
+    my ($base32_secret) = @_;
+
+    my $decode = Convert::Base32::decode_base32($base32_secret);
+
+    my $current_UNIX_time = time();
+    my $time_step = int($current_UNIX_time / 30);       # 30 seconds
+    $time_step = pack("Q>", $time_step);
+
+    my $hmac_sha1_hex = hmac_sha1_hex($time_step, $decode);
+
+    my $offset = hex(substr($hmac_sha1_hex, length($hmac_sha1_hex) - 1, 1));
+    my $truncated_hash = substr($hmac_sha1_hex, $offset * 2, 8);
+    my $encrypted = hex($truncated_hash) & 0x7fffffff;
+    my $token = $encrypted % 1000000;
+
+    return sprintf("%06d", $token);
+}
+
 
 1;
