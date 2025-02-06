@@ -14,12 +14,12 @@ use Cwd;
 # import modules
 use lib ".";
 use lib
-'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/packages';
+'/home/lapdev/Mein/Perl-WebServer/packages';
 use html_structure;
 use HTTP_RESPONSE;
 
 
-my $base_dir = "C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver";
+my $base_dir = "/home/lapdev/Mein/Perl-WebServer";
 
 
 sub list_files {

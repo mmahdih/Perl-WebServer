@@ -8,10 +8,10 @@ use Data::Dumper;
 use URI::Escape;
 
 use lib '.';
-use lib "C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/packages";
+use lib "/home/lapdev/Mein/Perl-WebServer/packages";
 
 
-my $base_dir = 'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver';
+my $base_dir = '/home/lapdev/Mein/Perl-WebServer';
 
 
 

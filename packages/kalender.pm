@@ -9,7 +9,7 @@ use HTTP::Request::Common;
 use URI::Escape;
 
 use lib ".";
-use lib 'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/packages';
+use lib '/home/lapdev/Mein/Perl-WebServer/packages';
 use html_structure;
 use HTTP_RESPONSE;
 use endPoints;

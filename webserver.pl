@@ -12,15 +12,13 @@ use Cwd;
 
 # import modules
 use lib ".";
-use lib
-'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/packages';
-use lib
-'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/packages/utils';
+use lib '/home/lapdev/Mein/Perl-WebServer/packages';
+use lib '/home/lapdev/Mein/Perl-WebServer/packages/utils';
 use html_structure;
 use HTTP_RESPONSE;
-use Kalender;
+use kalender;
 use file_manager;
-use Notepad;
+use notepad;
 use handle_get_requests;
 use handle_post_requests;
 use user_manager;

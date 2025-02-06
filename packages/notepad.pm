@@ -7,7 +7,7 @@ use Cwd;
 use JSON;
 
 
-my $base_dir = "C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver";
+my $base_dir = "/home/lapdev/Mein/Perl-WebServer";
 
 
 sub save_note_on_server {

@@ -8,7 +8,7 @@ use URI::Escape;
 
 use lib '.';
 use lib
-'C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure';
+'/home/lapdev/Mein/Perl-WebServer/structure';
 use calender;
 use cloud;
 use notepad;
@@ -16,19 +16,19 @@ use login;
 use signup;
 use home;
 
-my $base_dir ='C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver';
+my $base_dir ='/home/lapdev/Mein/Perl-WebServer';
 
 # importing css
 
 my $home_css = '';
-open my $home, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/home.css' or die $!;
+open my $home, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/home.css' or die $!;
 while ( my $line = <$home> ) {
     $home_css .= $line;
 }
 close $home;
 
 my $error_css = '';
-open my $error, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/error.css' or die $!;
+open my $error, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/error.css' or die $!;
 while ( my $line = <$error> ) {
     $error_css .= $line;
 }
@@ -36,77 +36,77 @@ close $error;
 
 
 my $notepad_css = '';
-open my $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/notepad.css' or die $!;
+open my $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/notepad.css' or die $!;
 while ( my $line = <$fh> ) {
     $notepad_css .= $line;
 }
 close $fh;
 
 my $calender_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/calender.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/calender.css' or die $!;
 while ( my $line = <$fh> ) {
     $calender_css .= $line;
 }
 close $fh;
 
 my $cloud_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/cloud.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/cloud.css' or die $!;
 while ( my $line = <$fh> ) {
     $cloud_css .= $line;
 }
 close $fh;
 
 my $login_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/login.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/login.css' or die $!;
 while ( my $line = <$fh> ) {
     $login_css .= $line;
 }
 close $fh;
 
 my $signup_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/signup.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/signup.css' or die $!;
 while ( my $line = <$fh> ) {
     $signup_css .= $line;
 }
 close $fh;
 
 my $main_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/main.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/main.css' or die $!;
 while ( my $line = <$fh> ) {
     $main_css .= $line;
 }
 close $fh;
 
 my $main2_css = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/main2.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/main2.css' or die $!;
 while ( my $line = <$fh> ) {
     $main2_css .= $line;
 }
 close $fh;
 
 my $notfound = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/notfound.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/notfound.css' or die $!;
 while ( my $line = <$fh> ) {
     $notfound .= $line;
 }
 close $fh;
 
 my $alert_page = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/alert.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/alert.css' or die $!;
 while ( my $line = <$fh> ) {
     $alert_page .= $line;
 }
 close $fh;
 
 my $snake_game = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/css/snake.css' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/css/snake.css' or die $!;
 while ( my $line = <$fh> ) {
     $snake_game .= $line;
 }
 close $fh;
 
 my $snake_game_js = '';
-open $fh, '<','C:/Users/Haidary/OneDrive - SINC SharePoint/Mein Files/Sinc Files/Week 12/Webserver/structure/game.js' or die $!;
+open $fh, '<','/home/lapdev/Mein/Perl-WebServer/structure/game.js' or die $!;
 while ( my $line = <$fh> ) {
     $snake_game_js .= $line;
 }

@@ -60,7 +60,6 @@ sub generate_base32_secret {
     return $base32_secret;
 }
 
-print "lsakjdfl;sakdjf;laskdjf;laskdjf\n";
 
 my $current_UNIX_time = time();
 
