@@ -39,6 +39,10 @@
 
 use strict;
 use warnings;
+use Imager::QRCode;
+
+use GD::Barcode::QRcode;
+use GD::Image;
 
 use Digest::HMAC_SHA1 qw/ hmac_sha1_hex /;
 
@@ -58,6 +62,18 @@ print "secret = $base32Secret\n";
 # this is the name of the key which can be displayed by the authenticator program
 my $keyId = "user\@foo.com";
 print "Image url = " . qrImageUrl($keyId, $base32Secret) . "\n";
+
+
+
+print "------------------------------------\n";
+#test
+my $lpad_time = sprintf("%016x", int(time()/30));
+print "lpad_time = $lpad_time\n";
+print "------------------------------------\n";
+
+
+
+
 # we can display this image to the user to let them load it into their auth program
 
 # we can use the code here and compare it against user input
@@ -71,7 +87,12 @@ while (1) {
     $code = generateCurrentNumber($base32Secret);
     print "Secret code = $code, change in $diff seconds\n";
     sleep(1);
+
+
 }
+
+
+
 
 #######################################################################################
 
@@ -99,8 +120,10 @@ sub generateCurrentNumber {
 
     # need a 16 character hex value
     my $paddedTime = sprintf("%016x", int(time() / $TIME_STEP));
+
     # this starts with \0's
     my $data = pack('H*', $paddedTime);
+    print "data = $data\n";
     my $key = decodeBase32($base32Secret);
 
     # encrypt the data with the key and return the SHA1 of it in hex
@@ -123,11 +146,19 @@ sub generateCurrentNumber {
 #
 sub qrImageUrl {
     my ($keyId, $base32Secret) = @_;
-    my $otpUrl = "otpauth://totp/$keyId%3Fsecret%3D$base32Secret";
-    return "https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=200x200&chld=M|0&cht=qr&chl=$otpUrl";
+    my $uri = "otpauth://totp/TestApp:testUser?secret=$base32Secret&issuer=TestApp\n";
+    
+    my $qr = GD::Barcode::QRcode->new($uri, { Ecc => 'L', Version => 10, ModuleSize => 3 });
+
+    open my $fh, '>', 'qrcode.png' or die "Cannot open file: $!";
+    binmode $fh;
+    print $fh $qr->plot->png;
+    close $fh;
+
+    print "QR Code saved as qrcode.png\n";
 }
 
-#otpauth://totp/$keyId%3Fsecret%3D$base32Secret
+#
 # Decode a base32 number which is used to encode the secret.
 #
 sub decodeBase32 {
@@ -148,3 +179,7 @@ sub decodeBase32 {
     $val = pack('B*', $val);
     return $val;
 }
+
+
+
+
