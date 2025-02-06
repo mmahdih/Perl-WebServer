@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    max-height: 95vh;
+
+}
+
+.notes_container {
+    position : relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.container .home {
+  position : absolute;
+  bottom : 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 250px;
+  height: 25px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.search_container {
+    margin-bottom: 20px;
+}
+
+.search_container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+
+.note_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 90vh;
+
+}
+
+.note_item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note_item:hover {
+    background-color: #f2f2f2;
+}
+
+
+.note_item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.note_item label {
+    flex-grow: 1;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.note_item label div{
+        font-weight: bold;
+}
+
+.note_item label p{
+        font-size : 14px;
+}
+
+.note_item, .note_item * {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.note {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 5px;
+background-color: #fff;
+    width: 100%;
+border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);        
+}
+
+.textarea{
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    height: 78vh;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: thin;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    text-align:center; 
+    border: 0;       
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#content{
+    text-align: center;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    background-color: #666;
+}
+
+.textarea::-webkit-scrollbar-track {
+    background-color: #333;
+}
+
+.textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}
+
+.textarea::-webkit-scrollbar-thumb:active {
+    background-color: #ccc;
+}
+
+.textarea::-webkit-scrollbar-corner {
+    background-color: #333;
+}
+
+.textarea::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #fff;
+    height: 6vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+.toolbar button, .toolbar label, .justify_tools button{
+    background-color: #ffffff;
+    border: none;
+    color: #121212;
+    padding: 5px 10px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.toolbar input[type="checkbox"]:checked + label::before {
+content: "";
+}
+
+.toolbar button:hover , .toolbar label:hover {
+background-color: #3e8e41;
+
+}
+
+.justify_tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+
+.justify_tools button:hover {
+    background-color: #3e8e41;
+}
+
+.justify_tools input[type="radio"] {
+    display: none
+}
+
+.justify_tools input[type="radio"]:checked + label {
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 5px;
+    padding:  5px 10px;
+    margin: 5px;
+}
+
+.justify_tools label {
+    color: #333;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.folder {
+transform: scale(var(--ggs, 1));
+}
+.folder,
+.folder::after {
+box-sizing: border-box;
+position: relative;
+display: block;
+width: 22px;
+height: 16px;
+border: 2px solid;
+border-radius: 3px;
+}
+.folder::after {
+content: "";
+position: absolute;
+width: 10px;
+height: 4px;
+border-bottom: 0;
+border-top-left-radius: 2px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+top: -5px;
+}
+
+
+
+
+body.dark-mode {
+background-color: black;
+}
+
+body.dark-mode .container {
+background-color: #121010;
+
+}
+
+body.dark-mode .notes_container,
+body.dark-mode .note_item,
+body.dark-mode .textarea,
+body.dark-mode .toolbar{
+background-color: #423f3f;
+color: white;
+border-color: var(--dark-border);
+box-shadow: 0 2px 4px var(--dark-shadow);
+}
+
+.body.dark-mode .note_container {
+background-color: #423f3f;
+}
+
+body.dark-mode .note_item:hover {
+background-color: #2a2a2a;
+}
+
+body.dark-mode .toolbar button,
+body.dark-mode .justify_tools label {
+background-color: var(--dark-accent);
+color: var(--dark-text);
+}
+
+body.dark-mode .toolbar button .mode{
+/* text-Content: "light_mode"; */
+border: 1px solid var(--dark-border);
+}
+
+body.dark-mode .toolbar button:hover,
+body.dark-mode .justify_tools label:hover {
+background-color: var(--dark-accent-hover);
+}

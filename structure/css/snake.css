@@ -1,0 +1,234 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#game-over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#time,
+h2 {
+  font-size: 1.5em;
+}
+
+#score-container {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vh;
+}
+
+#score-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vh;
+  height: 50px;
+}
+
+.button-container #difficulty-label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.button-container #difficulty {
+  padding: 5px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.button-container div {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #F5F5F5;
+  background-color: #5a80a9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  width: 75vh;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  border: 4px solid #ccc;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  position: relative; /* Add this line to allow absolute positioning of child elements */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  position: absolute; /* This allows it to sit on top of the container */
+  top: 0; /* Ensure it aligns with the top of the container */
+  left: 0; /* Ensure it aligns with the left of the container */
+}
+
+.snake {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  position: absolute; /* This places it on top of the board */
+  top: 0; /* Align snake to the top of the container */
+  left: 0; /* Align snake to the left of the container */
+}
+
+.board-cell {
+  border: 1px solid #ccc;
+}
+
+.snake .active {
+  background-color: #4caf50;
+}
+
+.board *:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.snake-container .snake-cell:hover {
+  background-color: green;
+}
+
+/* Test hover to show id */
+.board .board-cell:hover::before {
+  content: attr(id);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  transform: translateY(-100%);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.snake .snake-cell:hover::before {
+  content: attr(class);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  transform: translateY(-100%);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* .snake {
+    background-color: #4CAF50;
+} */
+
+.board .board-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-cell img {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  object-fit: cover;
+  animation: zoom 2s ease-in-out infinite alternate;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.67);
+  }
+}
+
+/* 
+@media only screen and (max-width: 600px) {
+    .container {
+        height: 50vh;
+        width: 50vh;
+    }
+    .button-container{
+        height: 50vh;
+        width: 50vh;
+    }
+
+
+
+
+
+} */

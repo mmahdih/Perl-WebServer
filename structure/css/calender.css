@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main .year {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main .year .btn {
+  background-color: #00BFA6;
+  width : 100px;
+  text-decoration: none;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, scale 0.2s;
+}
+
+.main .year a {
+  transition: scale 0.3s;
+}
+
+.main .year a:hover {
+  scale: 1.2;
+
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.main .btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00BFA6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.main .btn:hover {
+  background-color: #00BFA6;
+}
+
+.main form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.main input[type="date"],
+.main button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.main .months {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.main .months > a {
+  background-color: #00BFA6;
+  text-decoration: none;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, scale 0.2s;
+  
+  
+
+}
+
+.main .months > a:hover {
+  background-color: #00BFA6;
+  scale: 1.2;
+
+}

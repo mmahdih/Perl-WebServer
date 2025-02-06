@@ -1,0 +1,4790 @@
+[
+  {
+    "index": 0,
+    "date": " 01/01/2000",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2000",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 06/03/2000",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 07/03/2000",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 21/04/2000",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 23/04/2000",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 24/04/2000",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2000",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 01/06/2000",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 11/06/2000",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 12/06/2000",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 22/06/2000",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2000",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2000",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2000",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2000",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2000",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2000",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2000",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2000",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2000",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2001",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 26/02/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 27/02/2001",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 13/04/2001",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 15/04/2001",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 16/04/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2001",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 24/05/2001",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 03/06/2001",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 04/06/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 14/06/2001",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2001",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2001",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2001",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2001",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2001",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2001",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2001",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2001",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2002",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2002",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 11/02/2002",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 12/02/2002",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 29/03/2002",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 31/03/2002",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 01/04/2002",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2002",
+    "dayofweek": " Wed",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 09/05/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 19/05/2002",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 20/05/2002",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 30/05/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2002",
+    "dayofweek": " Fri",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 20/11/2002",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2002",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2002",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2002",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2002",
+    "dayofweek": " Tue",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2003",
+    "dayofweek": " Wed",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2003",
+    "dayofweek": " Mon",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 03/03/2003",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 04/03/2003",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 18/04/2003",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 20/04/2003",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 21/04/2003",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2003",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 29/05/2003",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 08/06/2003",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 09/06/2003",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 19/06/2003",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2003",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2003",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2003",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2003",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2003",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2003",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2003",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2003",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2003",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2004",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2004",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 23/02/2004",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 24/02/2004",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 09/04/2004",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 11/04/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 12/04/2004",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2004",
+    "dayofweek": " Sat",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 20/05/2004",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 30/05/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 31/05/2004",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 10/06/2004",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2004",
+    "dayofweek": " Mon",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 17/11/2004",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2004",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2004",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2004",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2004",
+    "dayofweek": " Fri",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2005",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2005",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 07/02/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 08/02/2005",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 25/03/2005",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 27/03/2005",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 28/03/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2005",
+    "dayofweek": " Sun",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 05/05/2005",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 15/05/2005",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 16/05/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 26/05/2005",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2005",
+    "dayofweek": " Tue",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 16/11/2005",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2005",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2005",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2005",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2005",
+    "dayofweek": " Sat",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2006",
+    "dayofweek": " Sun",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2006",
+    "dayofweek": " Fri",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 27/02/2006",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 28/02/2006",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 14/04/2006",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 16/04/2006",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 17/04/2006",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2006",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 25/05/2006",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 04/06/2006",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 05/06/2006",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 15/06/2006",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2006",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2006",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2006",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2006",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2006",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2006",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2006",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2006",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2006",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2007",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 19/02/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 20/02/2007",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 06/04/2007",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 08/04/2007",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 09/04/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2007",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 17/05/2007",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 27/05/2007",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 28/05/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 07/06/2007",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2007",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2007",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2007",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2007",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2007",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2007",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2007",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2007",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2008",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2008",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 04/02/2008",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 05/02/2008",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 21/03/2008",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 23/03/2008",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 24/03/2008",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2008",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 01/05/2008",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 11/05/2008",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 12/05/2008",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 22/05/2008",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2008",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2008",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2008",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2008",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2008",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2008",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2008",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2008",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2008",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2009",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2009",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 23/02/2009",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 24/02/2009",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 10/04/2009",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 12/04/2009",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 13/04/2009",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2009",
+    "dayofweek": " Fri",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 21/05/2009",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 31/05/2009",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 01/06/2009",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 11/06/2009",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2009",
+    "dayofweek": " Sat",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2009",
+    "dayofweek": " Sat",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2009",
+    "dayofweek": " Sat",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2009",
+    "dayofweek": " Sun",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 18/11/2009",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2009",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2009",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2009",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2009",
+    "dayofweek": " Thu",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2010",
+    "dayofweek": " Fri",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2010",
+    "dayofweek": " Wed",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 15/02/2010",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 16/02/2010",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 02/04/2010",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 04/04/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 05/04/2010",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2010",
+    "dayofweek": " Sat",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 13/05/2010",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 23/05/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 24/05/2010",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 03/06/2010",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2010",
+    "dayofweek": " Mon",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 17/11/2010",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2010",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2010",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2010",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2010",
+    "dayofweek": " Fri",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2011",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2011",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 07/03/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 08/03/2011",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 22/04/2011",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 24/04/2011",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 25/04/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2011",
+    "dayofweek": " Sun",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 02/06/2011",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 12/06/2011",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 13/06/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 23/06/2011",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2011",
+    "dayofweek": " Tue",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 16/11/2011",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2011",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2011",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2011",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2011",
+    "dayofweek": " Sat",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2012",
+    "dayofweek": " Sun",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2012",
+    "dayofweek": " Fri",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 20/02/2012",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 21/02/2012",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 06/04/2012",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 08/04/2012",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 09/04/2012",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2012",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 17/05/2012",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 27/05/2012",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 28/05/2012",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 07/06/2012",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2012",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2012",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2012",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2012",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2012",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2012",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2012",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2012",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2012",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2013",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2013",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 11/02/2013",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 12/02/2013",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 29/03/2013",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 31/03/2013",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 01/04/2013",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2013",
+    "dayofweek": " Wed",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 09/05/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 19/05/2013",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 20/05/2013",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 30/05/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2013",
+    "dayofweek": " Fri",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 20/11/2013",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2013",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2013",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2013",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2013",
+    "dayofweek": " Tue",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2014",
+    "dayofweek": " Wed",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2014",
+    "dayofweek": " Mon",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 03/03/2014",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 04/03/2014",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 18/04/2014",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 20/04/2014",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 21/04/2014",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2014",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 29/05/2014",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 08/06/2014",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 09/06/2014",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 19/06/2014",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2014",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2014",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2014",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2014",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2014",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2014",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2014",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2014",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2014",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2015",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2015",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 16/02/2015",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 17/02/2015",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 03/04/2015",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 05/04/2015",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 06/04/2015",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2015",
+    "dayofweek": " Fri",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 14/05/2015",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 24/05/2015",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 25/05/2015",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 04/06/2015",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2015",
+    "dayofweek": " Sat",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2015",
+    "dayofweek": " Sat",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2015",
+    "dayofweek": " Sat",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2015",
+    "dayofweek": " Sun",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 18/11/2015",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2015",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2015",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2015",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2015",
+    "dayofweek": " Thu",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2016",
+    "dayofweek": " Fri",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2016",
+    "dayofweek": " Wed",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 08/02/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 09/02/2016",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 25/03/2016",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 27/03/2016",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 28/03/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2016",
+    "dayofweek": " Sun",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 05/05/2016",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 15/05/2016",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 16/05/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 26/05/2016",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2016",
+    "dayofweek": " Tue",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 16/11/2016",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2016",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2016",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2016",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2016",
+    "dayofweek": " Sat",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2017",
+    "dayofweek": " Sun",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2017",
+    "dayofweek": " Fri",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 27/02/2017",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 28/02/2017",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 14/04/2017",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 16/04/2017",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 17/04/2017",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2017",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 25/05/2017",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 04/06/2017",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 05/06/2017",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 15/06/2017",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2017",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2017",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2017",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2017",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2017",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2017",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2017",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2017",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2017",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2018",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 12/02/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 13/02/2018",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 30/03/2018",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 01/04/2018",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 02/04/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2018",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 10/05/2018",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 20/05/2018",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 21/05/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 31/05/2018",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2018",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2018",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2018",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2018",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2018",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2018",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2018",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2018",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2019",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2019",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 04/03/2019",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 05/03/2019",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 19/04/2019",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 21/04/2019",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 22/04/2019",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2019",
+    "dayofweek": " Wed",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 30/05/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 09/06/2019",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 10/06/2019",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 20/06/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2019",
+    "dayofweek": " Fri",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 20/11/2019",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2019",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2019",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2019",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2019",
+    "dayofweek": " Tue",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2020",
+    "dayofweek": " Wed",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2020",
+    "dayofweek": " Mon",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 24/02/2020",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 25/02/2020",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 10/04/2020",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 12/04/2020",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 13/04/2020",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2020",
+    "dayofweek": " Fri",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 21/05/2020",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 31/05/2020",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 01/06/2020",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 11/06/2020",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2020",
+    "dayofweek": " Sat",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2020",
+    "dayofweek": " Sat",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2020",
+    "dayofweek": " Sat",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2020",
+    "dayofweek": " Sun",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 18/11/2020",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2020",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2020",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2020",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2020",
+    "dayofweek": " Thu",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2021",
+    "dayofweek": " Fri",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2021",
+    "dayofweek": " Wed",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 15/02/2021",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 16/02/2021",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 02/04/2021",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 04/04/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 05/04/2021",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2021",
+    "dayofweek": " Sat",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 13/05/2021",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 23/05/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 24/05/2021",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 03/06/2021",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2021",
+    "dayofweek": " Mon",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 17/11/2021",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2021",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2021",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2021",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2021",
+    "dayofweek": " Fri",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2022",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2022",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 28/02/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 01/03/2022",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 15/04/2022",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 17/04/2022",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 18/04/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2022",
+    "dayofweek": " Sun",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 26/05/2022",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 05/06/2022",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 06/06/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 16/06/2022",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2022",
+    "dayofweek": " Tue",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 16/11/2022",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2022",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2022",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2022",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2022",
+    "dayofweek": " Sat",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2023",
+    "dayofweek": " Sun",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2023",
+    "dayofweek": " Fri",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 20/02/2023",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 21/02/2023",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 07/04/2023",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 09/04/2023",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 10/04/2023",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2023",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 18/05/2023",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 28/05/2023",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 29/05/2023",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 08/06/2023",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2023",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2023",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2023",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2023",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2023",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2023",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2023",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2023",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2023",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2024",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2024",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 12/02/2024",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 13/02/2024",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 29/03/2024",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 31/03/2024",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 01/04/2024",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2024",
+    "dayofweek": " Wed",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 09/05/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 19/05/2024",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 20/05/2024",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 30/05/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2024",
+    "dayofweek": " Fri",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 20/11/2024",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2024",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2024",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2024",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2024",
+    "dayofweek": " Tue",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2025",
+    "dayofweek": " Wed",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2025",
+    "dayofweek": " Mon",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 03/03/2025",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 04/03/2025",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 18/04/2025",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 20/04/2025",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 21/04/2025",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2025",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 29/05/2025",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 08/06/2025",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 09/06/2025",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 19/06/2025",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2025",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2025",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2025",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2025",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2025",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2025",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2025",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2025",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2025",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2026",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2026",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 16/02/2026",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 17/02/2026",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 03/04/2026",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 05/04/2026",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 06/04/2026",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2026",
+    "dayofweek": " Fri",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 14/05/2026",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 24/05/2026",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 25/05/2026",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 04/06/2026",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2026",
+    "dayofweek": " Sat",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2026",
+    "dayofweek": " Sat",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2026",
+    "dayofweek": " Sat",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2026",
+    "dayofweek": " Sun",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 18/11/2026",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2026",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2026",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2026",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2026",
+    "dayofweek": " Thu",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2027",
+    "dayofweek": " Fri",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2027",
+    "dayofweek": " Wed",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 08/02/2027",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 09/02/2027",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 26/03/2027",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 28/03/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 29/03/2027",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2027",
+    "dayofweek": " Sat",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 06/05/2027",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 16/05/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 17/05/2027",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 27/05/2027",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2027",
+    "dayofweek": " Mon",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 17/11/2027",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2027",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2027",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2027",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2027",
+    "dayofweek": " Fri",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2028",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2028",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 28/02/2028",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 29/02/2028",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 14/04/2028",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 16/04/2028",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 17/04/2028",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2028",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 25/05/2028",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 04/06/2028",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 05/06/2028",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 15/06/2028",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2028",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2028",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2028",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2028",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2028",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2028",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2028",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2028",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2028",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2029",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 12/02/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 13/02/2029",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 30/03/2029",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 01/04/2029",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 02/04/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2029",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 10/05/2029",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 20/05/2029",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 21/05/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 31/05/2029",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2029",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2029",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2029",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2029",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2029",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2029",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2029",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2029",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2030",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2030",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 04/03/2030",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 05/03/2030",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 19/04/2030",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 21/04/2030",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 22/04/2030",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2030",
+    "dayofweek": " Wed",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 30/05/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 09/06/2030",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 10/06/2030",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 20/06/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2030",
+    "dayofweek": " Fri",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 20/11/2030",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2030",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2030",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2030",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2030",
+    "dayofweek": " Tue",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2031",
+    "dayofweek": " Wed",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2031",
+    "dayofweek": " Mon",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 24/02/2031",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 25/02/2031",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 11/04/2031",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 13/04/2031",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 14/04/2031",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2031",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 22/05/2031",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 01/06/2031",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 02/06/2031",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 12/06/2031",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2031",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2031",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2031",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2031",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2031",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2031",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2031",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2031",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2031",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2032",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2032",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 09/02/2032",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 10/02/2032",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 26/03/2032",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 28/03/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 29/03/2032",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2032",
+    "dayofweek": " Sat",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 06/05/2032",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 16/05/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 17/05/2032",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 27/05/2032",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2032",
+    "dayofweek": " Mon",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 17/11/2032",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2032",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2032",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2032",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2032",
+    "dayofweek": " Fri",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2033",
+    "dayofweek": " Sat",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2033",
+    "dayofweek": " Thu",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 28/02/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 01/03/2033",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 15/04/2033",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 17/04/2033",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 18/04/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2033",
+    "dayofweek": " Sun",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 26/05/2033",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 05/06/2033",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 06/06/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 16/06/2033",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2033",
+    "dayofweek": " Tue",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 16/11/2033",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2033",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2033",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2033",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2033",
+    "dayofweek": " Sat",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2034",
+    "dayofweek": " Sun",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2034",
+    "dayofweek": " Fri",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 20/02/2034",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 21/02/2034",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 07/04/2034",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 09/04/2034",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 10/04/2034",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2034",
+    "dayofweek": " Mon",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 18/05/2034",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 28/05/2034",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 29/05/2034",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 08/06/2034",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2034",
+    "dayofweek": " Tue",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2034",
+    "dayofweek": " Tue",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2034",
+    "dayofweek": " Tue",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2034",
+    "dayofweek": " Wed",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 22/11/2034",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2034",
+    "dayofweek": " Sun",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2034",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2034",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2034",
+    "dayofweek": " Sun",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2035",
+    "dayofweek": " Sat",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 05/02/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 06/02/2035",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 23/03/2035",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 25/03/2035",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 26/03/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2035",
+    "dayofweek": " Tue",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 03/05/2035",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 13/05/2035",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 14/05/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 24/05/2035",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2035",
+    "dayofweek": " Wed",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2035",
+    "dayofweek": " Wed",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2035",
+    "dayofweek": " Wed",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2035",
+    "dayofweek": " Thu",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 21/11/2035",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2035",
+    "dayofweek": " Tue",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2035",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2035",
+    "dayofweek": " Mon",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2036",
+    "dayofweek": " Tue",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2036",
+    "dayofweek": " Sun",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 25/02/2036",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 26/02/2036",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 11/04/2036",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 13/04/2036",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 14/04/2036",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2036",
+    "dayofweek": " Thu",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 22/05/2036",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 01/06/2036",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 02/06/2036",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 12/06/2036",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2036",
+    "dayofweek": " Fri",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2036",
+    "dayofweek": " Fri",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2036",
+    "dayofweek": " Fri",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2036",
+    "dayofweek": " Sat",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 19/11/2036",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2036",
+    "dayofweek": " Wed",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2036",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2036",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2036",
+    "dayofweek": " Wed",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  },
+  {
+    "index": 0,
+    "date": " 01/01/2037",
+    "dayofweek": " Thu",
+    "name": { "en": "New Year's day", "de": "Neujahr" }
+  },
+  {
+    "index": 1,
+    "date": " 06/01/2037",
+    "dayofweek": " Tue",
+    "name": { "en": "Epiphany", "de": "Hl. 3 Koenige" }
+  },
+  {
+    "index": 2,
+    "date": " 16/02/2037",
+    "dayofweek": " Mon",
+    "name": { "en": "Carnival monday", "de": "Rosenmontag" }
+  },
+  {
+    "index": 3,
+    "date": " 17/02/2037",
+    "dayofweek": " Tue",
+    "name": { "en": "Shrove tuesday", "de": "Faschingsdienstag" }
+  },
+  {
+    "index": 4,
+    "date": " 03/04/2037",
+    "dayofweek": " Fri",
+    "name": { "en": "Good friday", "de": "Karfreitag" }
+  },
+  {
+    "index": 5,
+    "date": " 05/04/2037",
+    "dayofweek": " Sun",
+    "name": { "en": "Easter sunday", "de": "Ostersonntag" }
+  },
+  {
+    "index": 6,
+    "date": " 06/04/2037",
+    "dayofweek": " Mon",
+    "name": { "en": "Easter monday", "de": "Ostermontag" }
+  },
+  {
+    "index": 7,
+    "date": " 01/05/2037",
+    "dayofweek": " Fri",
+    "name": { "en": "Labor day, German style", "de": "Maifeiertag" }
+  },
+  {
+    "index": 8,
+    "date": " 14/05/2037",
+    "dayofweek": " Thu",
+    "name": { "en": "Ascension day", "de": "Himmelfahrtstag" }
+  },
+  {
+    "index": 9,
+    "date": " 24/05/2037",
+    "dayofweek": " Sun",
+    "name": { "en": "Whit sunday", "de": "Pfingstsonntag" }
+  },
+  {
+    "index": 10,
+    "date": " 25/05/2037",
+    "dayofweek": " Mon",
+    "name": { "en": "Whit monday", "de": "Pfingstmontag" }
+  },
+  {
+    "index": 11,
+    "date": " 04/06/2037",
+    "dayofweek": " Thu",
+    "name": { "en": "Corpus christi", "de": "Fronleichnam" }
+  },
+  {
+    "index": 12,
+    "date": " 15/08/2037",
+    "dayofweek": " Sat",
+    "name": { "en": "Assumption day", "de": "Mariae Himmelfahrt" }
+  },
+  {
+    "index": 13,
+    "date": " 03/10/2037",
+    "dayofweek": " Sat",
+    "name": { "en": "Reunion day", "de": "Tag der deutschen Einheit" }
+  },
+  {
+    "index": 14,
+    "date": " 31/10/2037",
+    "dayofweek": " Sat",
+    "name": { "en": "Reformation day", "de": "Reformationstag" }
+  },
+  {
+    "index": 15,
+    "date": " 01/11/2037",
+    "dayofweek": " Sun",
+    "name": { "en": "All hallows day", "de": "Allerheiligen" }
+  },
+  {
+    "index": 16,
+    "date": " 18/11/2037",
+    "dayofweek": " Wed",
+    "name": { "en": "Penance day", "de": "Buss- und Bettag" }
+  },
+  {
+    "index": 17,
+    "date": " 24/12/2037",
+    "dayofweek": " Thu",
+    "name": { "en": "Christmas eve", "de": "Heiligabend" }
+  },
+  {
+    "index": 18,
+    "date": " 25/12/2037",
+    "dayofweek": " Fri",
+    "name": { "en": "Christmas", "de": "1. Weihnachtstag" }
+  },
+  {
+    "index": 19,
+    "date": " 26/12/2037",
+    "dayofweek": " Sat",
+    "name": { "en": "Christmas", "de": "2. Weihnachtstag" }
+  },
+  {
+    "index": 20,
+    "date": " 31/12/2037",
+    "dayofweek": " Thu",
+    "name": { "en": "New year's eve", "de": "Silvester" }
+  }
+]
