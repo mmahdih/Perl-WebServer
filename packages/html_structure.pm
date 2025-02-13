@@ -1050,7 +1050,38 @@ HTML
 }
 
 
+sub html_mfa_verify_page {
+    
+    my $html_content = <<HTML;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFA</title>
+    <style>
+      $MFA_page
+      p{}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MFA</h1>
+        <p>Multi Factor Authentication</p>
+        
+        
+        <form action="/mfa/verify" method="post">
+            <label for="code">Enter Code:</label>
+            <input type="text" id="code" name="code" required>
+            <input type="submit" value="Verify">
+        </form>
+    </div>
+</body>
+</html>
+HTML
 
+    return $html_content;
+}
 
 
 

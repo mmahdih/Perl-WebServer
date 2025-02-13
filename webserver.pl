@@ -36,7 +36,7 @@ use cookies;
 
 #variables
 my $base_dir = getcwd();
-my $server_port = 1111;
+my $server_port = 1212;
 my $select;
 my @ready;
 my @connected;
@@ -153,14 +153,53 @@ while (1) {
                         # Handle All POST requests of Login #
                         #####################################
                         if( $uri =~ "/user/login" ) {
-                            my ($result, $cookie ) = user_manager::handle_login_user( $client, $req );
+                            my ($result, $cookie, $session ) = user_manager::handle_login_user( $client, $req );
 
+                            my $users;
+                            # print "$base_dir/User/user_data.json\n";
+                            if ( -s "$base_dir/User/user_data.json" ) {
+                                open my $fh, '<', "$base_dir/User/user_data.json" or die $!;
+                                local $/ = undef;
+                                my $json_data = <$fh>;
+                                $users = decode_json($json_data);
+                                close $fh;
+                            } else {
+                                $users = [];
+                            }
+
+                            print "User found\n";
+                            my $mfa = 0;
+                            foreach my $user (@$users) {
+                                # print "$user->{multi_factor_auth}\n";
+                                if ( $user->{session_id} eq $session ) {
+                                    $mfa = $user->{multi_factor_auth};
+                                    print "MFA: $user->{multi_factor_auth}\n";
+                                }
+                            }
 
                             if ($result eq "success") {
-                                print "REQUEST: \n", $req->as_string, "\n";
-                                my $body = html_structure::Alert_page("success", "Logged in successful", "Home");
-                                my $res = HTTP_RESPONSE::GET_OK_200_with_cookie( $body, $cookie );
-                                print $client $res;
+                                # print "REQUEST: \n", $req->as_string, "\n";
+                                print "test\n";
+
+                                
+
+
+                                if ($mfa == 1) {
+                                    print "MFA enabled\n";
+                                    my $body = html_structure::html_mfa_verify_page();
+                                    my $res = HTTP_RESPONSE::GET_OK_200($body);
+                                    print $client $res;
+                                } else {
+                                    print "MFA disabled\n";
+                                    my $body = html_structure::Alert_page("success", "Logged in successful", "Home");
+                                    my $res = HTTP_RESPONSE::GET_OK_200_with_cookie( $body, $cookie );
+                                    print $client $res;
+                                }
+
+
+
+                                
+                                
                                 $select->remove($client);
                                 close $client;
                                 print "Connection closed.\n";
@@ -617,9 +656,13 @@ while (1) {
                         my ($result, $username, $user_role) = user_manager::user_login_check($client, $req);
 
                         if ($result eq "success") {
-                            # Generate final HTML response
-                            my $res  = HTTP_RESPONSE::REDIRECT_303( $username, "/home" );
-                            print $client $res;
+                            
+                                        my $res = HTTP_RESPONSE::REDIRECT_303( $username, "/home" );
+                                        print $client $res;
+
+                            
+                            
+                            
                         } elsif ($result eq "failed") {
                             # Generate final HTML response
                             my $body = html_structure::html_login_page();
@@ -632,6 +675,28 @@ while (1) {
                         print "\n";
                         print "\n";
                     }
+
+                    elsif ( $uri eq "/2fa/verify" ) {
+
+                        my ($result) = user_manager::handle_mfa_verify( $client, $req );
+                        if ($result eq "success") {
+                            my $body = html_structure::Alert_page("success", "MFA verified successful", "Home");
+                            my $res = HTTP_RESPONSE::GET_OK_200( $body);
+                            print $client $res;
+                        } elsif ($result eq "failed") {
+                            my $body = html_structure::Alert_page("error", "MFA verification failed");
+                            my $res = HTTP_RESPONSE::BAD_REQUEST_400($body);
+                            print $client $res;
+                        }
+                        $select->remove($client);
+                        close $client;
+                        print "Connection closed.\n";
+                        print "\n";
+                        print "\n";
+
+
+                    }
+                        
 
                     elsif ( $uri eq "/register" ) {
                         # Generate final HTML response
@@ -673,6 +738,9 @@ while (1) {
                     # Generate base32 secret key
                     my $base32_secret = generate_base32_secret();
                     print "Secret = $base32_secret\n";
+
+
+                    print "Current number = ", generate_current_number($base32_secret) ,"\n";
                         
                     # QR Code generation
                     my $uri = "otpauth://totp/TestApp:testUser?secret=$base32_secret&issuer=TestApp\n";
@@ -864,14 +932,14 @@ while (1) {
 
 
 
-sub generate_secret_key {
-    my $length = shift || 16;  # 16 bytes is a common length for secret keys
-    my $random_bytes = '';
-    for (1..$length) {
-        $random_bytes .= chr(int(rand(256)));
-    }
-    return encode_base32($random_bytes);
-    }
+# sub generate_secret_key {
+#     my $length = shift || 16;  # 16 bytes is a common length for secret keys
+#     my $random_bytes = '';
+#     for (1..$length) {
+#         $random_bytes .= chr(int(rand(256)));
+#     }
+#     return encode_base32($random_bytes);
+#     }
 
 sub generate_base32_secret {
     my @chars = ("A".."Z", "2".."7");

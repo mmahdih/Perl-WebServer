@@ -34,7 +34,7 @@ sub handle_login_user {
 
     print "Password Hash: $password_hash\n";
 
-    my $sessionId = int(rand(10000000) + 10000000);
+    my $sessionId = int(rand(1000000000000000000000000) + 1000000000000000000000000);
 
     my $users;
     if ( -s "$base_dir/User/user_data.json" ) {
@@ -57,7 +57,7 @@ sub handle_login_user {
             print $fh encode_json($users);
             close $fh;
             $found = 1;
-            return "success", "session_id=$sessionId";
+            return "success", "session_id=$sessionId", $sessionId;
         }
     }
 

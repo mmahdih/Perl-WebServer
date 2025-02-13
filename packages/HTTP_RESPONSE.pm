@@ -25,7 +25,8 @@ sub GET_OK_200_with_content_type {
 
     my $response;
     $response .= "HTTP/1.1 200 OK\r\n";
-    $response .= "Content-Type: $content_type\r\n";
+    $response .= "Content-Type: application/octet-stream\r\n";
+    $response .= "Content-Disposition: attachment; filename=\"picture.png\"\r\n";
     $response .= "Date: $date_now\r\n";
     $response .= "\r\n";
     $response .= $data;
